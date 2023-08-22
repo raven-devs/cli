@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# chmod -R +rwx ./src/module/script/script-shell
+# ./src/module/script/script-shell
+
+echo "Hello, World!"
+
+global_node_modules="$(npm root --global)"
+echo "Global packages installed in: ${global_node_modules}"
+
+exit 0

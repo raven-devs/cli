@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+/**
+ * node src/module/script/script-node
+ */
+
+console.log('Hello, World!');
