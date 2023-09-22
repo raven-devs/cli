@@ -30,6 +30,6 @@ async function findFile(fileName: string, cwd: string) {
   }
 }
 
-findDir('doc', '/Users/spetushkou/Projects')
+findDir('node_modules', '/Users/spetushkou/Projects')
   .then()
   .catch((e) => console.error(e));
