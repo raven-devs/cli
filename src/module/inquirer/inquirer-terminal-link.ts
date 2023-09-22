@@ -16,8 +16,7 @@ const questions = [
       'Standard',
       'Medium',
       'Small',
-      'Micro which is truly and surely the ' +
-        terminalLink('Wikipedia: Micro', 'https://en.wikipedia.org/wiki/Micro-'),
+      'Micro which is truly and surely the ' + terminalLink('Wikipedia: Micro', 'https://en.wikipedia.org/wiki/Micro-'),
     ],
     filter(value: string) {
       return value.toLowerCase();

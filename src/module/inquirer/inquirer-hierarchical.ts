@@ -82,12 +82,7 @@ function encounter2b() {
       type: 'list',
       name: 'weapon',
       message: 'Pick one',
-      choices: [
-        'Use the stick',
-        'Grab a large rock',
-        'Try and make a run for it',
-        'Attack the wolf unarmed',
-      ],
+      choices: ['Use the stick', 'Grab a large rock', 'Try and make a run for it', 'Attack the wolf unarmed'],
     })
     .then(() => {
       console.log('The wolf mauls you. You die. The end.');
