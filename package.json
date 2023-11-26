@@ -72,6 +72,7 @@
     "glob": "^10.3.3",
     "inquirer": "^8.2.5",
     "ora": "^5.4.1",
+    "progress": "^2.0.3",
     "terminal-link": "^2.1.1",
     "yargs": "^17.7.2"
   },
